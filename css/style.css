@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* font family end  */
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: var(--font-family);
+        font-weight: var(--font-weight);
+    }
+    :root{
+        --font-size: 18px;
+        --line-height: 1.5;
+        --font-weight: 1000;
+        --bg-color: #0e1630;
+        --text-transform: capitalize;
+        --color: rgba(255, 255, 255, .55);
+        --font-family: "Quicksand", sans-serif;
+    }
+/* =========== common css end =========== */
+
+
+/* =========== navbar start =========== */
+    #mainNav{
+        background-color: var(--bg-color);
+    }
+    #container{
+        display: flex;
+        text-align: center;
+    }
+    #logo{
+        padding: 5px 0;
+        margin: auto 16px auto 0;
+    }
+    #navContainer{
+        display: flex;
+    }
+    .menuItems{
+        padding: 0;
+        display: flex;
+        margin: 0 173px 0 173px;
+    }
+    .menuItems > li a{
+        padding: 40px 20px;
+        color: var(--color);
+        text-decoration: none;
+        display: inline-block;
+        font-size: var(--font-size);
+        text-transform: var(--text-transform);
+        transition: .4s;
+    }
+    .menuItems > li a:hover{
+        color: #dc3545;
+    }
+    .buyNow{
+        padding: 0;
+        margin-bottom: 0;
+        margin: auto 0 auto 114px;
+    }
+    .buyNow > li a{
+        color: white;
+        transition: .4s;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: var(--font-size);
+        background-color: #dc3545;
+        font-weight: var(--font-weight);
+    }
+    .buyNow > li a:hover{
+        background-color: white;
+        color: #dc3545;
+    }
+
+/* =========== navbar end =========== */
+
+/* =========== hero section start =========== */
+
+
+/* =========== hero section end =========== */
